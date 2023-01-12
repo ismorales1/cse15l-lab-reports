@@ -35,5 +35,6 @@ Second Heading Again
 [2]: http://url/b.jpg
 
 > Blockquote
+> This is still part of the blockquote
 
 
