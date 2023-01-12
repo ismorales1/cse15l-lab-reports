@@ -4,7 +4,5 @@
 First, go to the Visual Studio Code website and download the application: [Visual studio code link](https://code.visualstudio.com/).
 Confirm that you downloaded the proper version of the application, which is dependent on the operating system.
 
-![Initial Interface of VScode Screenshot]
-
-
-<img width="1240" alt="Screen Shot 2023-01-11 at 4 15 57 PM" src="https://user-images.githubusercontent.com/122497830/211991611-a6347df1-1a60-42d6-afff-4293af5d9cf6.png">
+Initial Interface of VScode Screenshot:
+<img width="1512" alt="Screen Shot 2023-01-11 at 10 21 21 PM" src="https://user-images.githubusercontent.com/122497830/211992664-4e7a4c5a-934a-4dc8-a68d-6d610c3e16f0.png">
