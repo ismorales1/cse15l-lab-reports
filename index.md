@@ -10,7 +10,7 @@ Second Heading Again
 
 *This statement is in Italic*
 
-[LinktoSomething]
+[LinktoSomething](http://a.com)
 
 [LinkAgain][1]
 .
@@ -26,7 +26,7 @@ Second Heading Again
 2. Set 
 3. go
 
-![ImageNumber1]
+![ImageNumber1](http://ur./a.png)
 
 ![ImageNumber2]
 .
