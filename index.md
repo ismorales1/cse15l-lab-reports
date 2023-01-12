@@ -1,7 +1,5 @@
-Hello, World.
-**This statement is bold**
+**This file is bold**
 # Hello World Heading 
-*This statement is in Italic*
 ## Hello World Heading number 2
 
 Heading Again
@@ -9,6 +7,8 @@ Heading Again
 
 Second Heading Again
 --------------------
+
+*This statement is in Italic*
 
 [LinktoSomething]
 
