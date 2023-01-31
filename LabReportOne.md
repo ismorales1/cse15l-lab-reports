@@ -9,7 +9,7 @@ Initial Interface of VScode:
 
 ## Step 2: Remotely Connecting
 The second step of the tutorial is to remotely connect to another computer through the use of the VScode terminal. Open a terminal in VScode and type 
-```ssh cs15lwi23??@ieng6.ucsd.edu``` (Replace ?? with the appropriate letters in your account name). Once you successfully login by also typing in your password, you should encounter an interface like below.
+```ssh cs15lwi23??@ieng6.ucsd.edu``` (Replace ``??`` with the appropriate letters in your account name). Once you successfully login by also typing in your password, you should encounter an interface like below.
 
 <img width="504" alt="Screen Shot 2023-01-11 at 3 46 43 PM" src="https://user-images.githubusercontent.com/122497830/211998602-5b4a637c-16ee-4f40-8918-b5e470238759.png">
 
