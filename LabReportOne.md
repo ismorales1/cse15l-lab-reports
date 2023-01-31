@@ -21,13 +21,13 @@ The second step of the tutorial is to remotely connect to another computer throu
 Try some of the following commands in the terminal. Note, if you want to utilize these commands in the remote computer, you must use the terminal in VScode. Note: some commands may lead to errors. 
 
 Commands:
-- cd
-- pwd
-- cd~
-- ls -lat
-- ls -a
-- cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-- cat /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+- `cd`
+- `pwd`
+- `cd~`
+- `ls -lat`
+- `ls -a`
+- `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+- `cat /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 
 What the ls -a command does(in VScode terminal):
 <img width="1240" alt="Screen Shot 2023-01-11 at 4 15 57 PM" src="https://user-images.githubusercontent.com/122497830/212000789-2604cfa4-b2b9-447f-bef8-09d6941f9d19.png">
