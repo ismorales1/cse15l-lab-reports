@@ -31,4 +31,4 @@ Commands:
 
 What the `ls -a` command does(in VScode terminal):
 <img width="1240" alt="Screen Shot 2023-01-11 at 4 15 57 PM" src="https://user-images.githubusercontent.com/122497830/212000789-2604cfa4-b2b9-447f-bef8-09d6941f9d19.png">
-Running this command reveals some of the contents under the working directory, which mainly consists of dot files. Further, these dot files are all related to the ieng6 server such as user and login information.
+Running this command reveals some of the contents under the working directory, which mainly consists of dot files. Further, these dot files are all related to the ieng6 server, such as user and login information.
