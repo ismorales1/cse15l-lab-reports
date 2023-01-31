@@ -14,6 +14,7 @@ The second step of the tutorial is to remotely connect to another computer throu
 <img width="918" alt="Screen Shot 2023-01-30 at 7 38 32 PM" src="https://user-images.githubusercontent.com/122497830/215656986-0c85603c-a8c0-4c29-80a2-5bd966ad1f43.png">
 
 (Remotely connecting to another computer)
+
 <img width="504" alt="Screen Shot 2023-01-11 at 3 46 43 PM" src="https://user-images.githubusercontent.com/122497830/211998602-5b4a637c-16ee-4f40-8918-b5e470238759.png">
 
 ## Step 3: Trying Commands 
