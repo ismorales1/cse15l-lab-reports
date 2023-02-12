@@ -1,4 +1,4 @@
-
+The two screenshots below reveal to the code to StringServer:
 <img width="660" alt="Screen Shot 2023-02-12 at 3 17 07 PM" src="https://user-images.githubusercontent.com/122497830/218343202-088e667f-2ced-483c-be09-1dccc93aa674.png">
 <img width="792" alt="Screen Shot 2023-02-12 at 3 17 36 PM" src="https://user-images.githubusercontent.com/122497830/218343228-71c118ae-b277-4526-b751-fc02f5564f40.png">
 ---
