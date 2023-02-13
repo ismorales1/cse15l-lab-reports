@@ -20,30 +20,54 @@ Failure inducing input for the append method in the LinkedListExample.java progr
 ```
 @Test
 public void linkedListAppendTester(){
-LinkedList pracList = new LinkedList();
-pracList.append(4);
-pracList.append(8);
-pracList.append(7);
+ LinkedList pracList = new LinkedList();
+ pracList.append(4);
+ pracList.append(8);
+ pracList.append(7);
 
-assertEquals("4 8 7 ", pracList.toString());
+ assertEquals("4 8 7 ", pracList.toString());
 }
 ```
 Input for the append method in the LinkedListExample.java program that does not induce a failure (as a JUnit test):
 ```
 @Test
 public void linkedListAppendTesterTwo(){
-LinkedList secondList = new LinkedList();
-secondList.append(9);
-secondList.append(2);
+ LinkedList secondList = new LinkedList();
+ secondList.append(9);
+ secondList.append(2);
 
-assertEquals("9 2 ", secondList.toString());
+ assertEquals("9 2 ", secondList.toString());
 }
 ```
-Screenshot of sypmtom and output of running Failure inducing input/test:
+Screenshot of symptom and output of running program with Failure inducing input/test:
 <img width="985" alt="Screen Shot 2023-02-12 at 7 28 14 PM" src="https://user-images.githubusercontent.com/122497830/218363835-63d15388-a974-47ab-be3a-b4368249777c.png">
 
-Screenshot of sypmtom and output of running non-failing inducing input/test:
+Screenshot of symptom and output of running program with non-failing inducing input/test:
 <img width="988" alt="Screen Shot 2023-02-12 at 7 29 35 PM" src="https://user-images.githubusercontent.com/122497830/218363994-6b3be0ec-ef62-47ad-b908-e8f60ee9f417.png">
+
+Fixing code:
+
+Buggy ```append()``` method:
+```
+public void append(int value) {
+ if(this.root == null) {
+  this.root = new Node(value, null);
+  return;
+ }
+ // If it's just one element, add if after that one
+ Node n = this.root;
+ if(n.next == null) {
+  n.next = new Node(value, null);
+  return;
+ }
+ // Otherwise, loop until the end and add at the end with a null
+ while(n.next != null) {
+  n = n.next;
+  n.next = new Node(value, null);
+ }
+}
+
+```
 
 
 
