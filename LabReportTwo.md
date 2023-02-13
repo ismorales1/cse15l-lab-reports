@@ -90,6 +90,7 @@ public void append(int value) {
 }
 
 ```
+Fix Explanation: Before fixing the ```append()``` method, the program would enter an infinite loop each time one wanted to append a new node with a linked list of size 3 or greater. This was caused by the line ```n.next = new Node(value, null);``` being in the wrong block of code. A new node would be created during each iteration of the while loop, resulting in never finding the last node whose next refernce variable is pointing to null. To fix this, I put the same line of code, ``` n.next = new Node(value, null);``` , outside of the while loop. This allows the while loop to reach the last node, such that a new node can then be appended as expected. 
 
 
 
