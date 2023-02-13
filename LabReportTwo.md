@@ -11,3 +11,4 @@ Initially, the `handleRequest()` method gets invoked with the provided URL input
 
 <img width="661" alt="Screen Shot 2023-02-12 at 4 21 18 PM" src="https://user-images.githubusercontent.com/122497830/218346198-8e5ab9db-912f-4e0e-a697-db896b6532e0.png">
 
+The `handleRequest()` method is invoked again with the url, ```localhost:45992/add-message?s=hi```. This method also gets invoked another four times after with inputs: ```s=Today is very sunny```, ```s=There is also no traffic today```, ```s=It is a good day today```, ```s=San Diego is cool```. 
