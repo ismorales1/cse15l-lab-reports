@@ -69,7 +69,6 @@ public void append(int value) {
   n.next = new Node(value, null);
  }
 }
-
 ```
 After fixing ```append()``` method:
 ```
