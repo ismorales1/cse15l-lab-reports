@@ -1,12 +1,13 @@
 # Lab Report Two: Servers and Bugs
 
-The two screenshots below reveal to the code to StringServer:
+The screenshot below reveals the code to ```StringServer```:
+<img width="808" alt="Screen Shot 2023-02-12 at 4 17 58 PM" src="https://user-images.githubusercontent.com/122497830/218345971-3ac200ff-c485-44ef-930a-84d6b134af80.png">
 
 
-<img width="660" alt="Screen Shot 2023-02-12 at 3 17 07 PM" src="https://user-images.githubusercontent.com/122497830/218343202-088e667f-2ced-483c-be09-1dccc93aa674.png">
-<img width="792" alt="Screen Shot 2023-02-12 at 3 17 36 PM" src="https://user-images.githubusercontent.com/122497830/218343228-71c118ae-b277-4526-b751-fc02f5564f40.png">
 
-<img width="816" alt="Screen Shot 2023-02-12 at 3 21 37 PM" src="https://user-images.githubusercontent.com/122497830/218343428-55a50006-096a-43d9-9b03-cc5784241583.png">
-Initially, the `handleRequest()` method gets invoked with the provided URL input. In this example the, the input was localhost:45992/add-message?s=hello and the later the input ```localhost:45992/add-message?s=It is cloudy today``` was also provided.
+<img width="1161" alt="Screen Shot 2023-02-12 at 4 19 35 PM" src="https://user-images.githubusercontent.com/122497830/218346090-76fe45c3-64e9-443f-8144-98fe4c027d0a.png">
 
-<img width="823" alt="Screen Shot 2023-02-12 at 3 32 08 PM" src="https://user-images.githubusercontent.com/122497830/218343886-0c1d5490-9dfc-48ee-943a-d9f553b16987.png">
+Initially, the `handleRequest()` method gets invoked with the provided URL input. In this example the, the input was localhost:45992/add-message?s=hello and the later the input `localhost:45992/add-message?s=It is cloudy today` was also provided. Further, the domain of the provided input is checked and verifies if add-message was provided. After, the query is divided into two elements and if the 0th element is ```"s"```, then a proper string was provided, which will be printed onto the webpage. Next, the string that is in query is split and diveded wherever a space occurs. 
+
+<img width="661" alt="Screen Shot 2023-02-12 at 4 21 18 PM" src="https://user-images.githubusercontent.com/122497830/218346198-8e5ab9db-912f-4e0e-a697-db896b6532e0.png">
+
