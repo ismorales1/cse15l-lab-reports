@@ -9,9 +9,11 @@ The screenshot below reveals the code to ```StringServer```:
 
 <img width="1161" alt="Screen Shot 2023-02-12 at 4 19 35 PM" src="https://user-images.githubusercontent.com/122497830/218346090-76fe45c3-64e9-443f-8144-98fe4c027d0a.png">
 
+
 Initially, the `handleRequest()` method gets invoked with the provided URL input. In this example the input was ```localhost:45992/add-message?s=hello``` and the later input was `localhost:45992/add-message?s=It is cloudy today`. Further, the path of the provided input is checked and verifies if the ```add-message``` path was provided. This was computed through the use of the ```getPath()``` and the ```contains()``` methods. After, the query is divided into two elements and stored into a string array using the ```split()``` method. If the 0th index element is ```"s"```, then a proper string was provided, which will be printed onto the webpage. Next, the 1st index element of the string array, which is the deisred string to be printed onto the webpage, is assigned to a local variable, which is then concatenated with a global variable that will hold the entire sequence of strings. Therefore, when the second url input,`localhost:45992/add-message?s=It is cloudy today` is provided, the local variable `strTemp` will hold and later concatenate `"It is cloudy today"` with any previous strings that were provided earlier to be printed onto the webpage.
 
 <img width="661" alt="Screen Shot 2023-02-12 at 4 21 18 PM" src="https://user-images.githubusercontent.com/122497830/218346198-8e5ab9db-912f-4e0e-a697-db896b6532e0.png">
+
 
 The `handleRequest()` method is invoked again with the url, ```localhost:45992/add-message?s=hi```. This method also gets invoked another four times where the inputs and query is: ```s=Today is very sunny```, ```s=There is also no traffic today```, ```s=It is a good day today```, and ```s=San Diego is cool```. This means that after the provided url is handled, the global variable ```entireSequ``` gets updated five times and each new string gets concatenated to the existing sequence of strings. Each time that a new query is provided in the url, the ```entireSequ``` global variable gets updated and the corresponding sequence of strings gets printed onto the webpage. Also, a new line is provided after each new input, allowing each new subset of strings to appear below the previous strings provided in the query.
  
@@ -70,7 +72,6 @@ public void append(int value) {
 }
 
 ```
-
 After fixing ```append()``` method:
 ```
 public void append(int value) {
@@ -90,7 +91,6 @@ public void append(int value) {
  }
  n.next = new Node(value, null);
 }
-
 ```
 Fix Explanation: Before fixing the ```append()``` method, the program would enter an infinite loop each time one wanted to append a new node with a linked list of size 3 or greater. This was caused by the line ```n.next = new Node(value, null);``` being in the wrong block of code. A new node would be created during each iteration of the while loop, resulting in never finding the last node whose next refernce variable is pointing to null. To fix this, I put the same line of code, ``` n.next = new Node(value, null);``` , outside of the while loop. This allows the while loop to reach the last node, such that a new node can then be appended as expected. 
 
