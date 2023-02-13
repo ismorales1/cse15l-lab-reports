@@ -47,9 +47,7 @@ Screenshot of symptom and output of running program with Failure inducing input/
 
 Screenshot of symptom and output of running program with non-failing inducing input/test:
 <img width="988" alt="Screen Shot 2023-02-12 at 7 29 35 PM" src="https://user-images.githubusercontent.com/122497830/218363994-6b3be0ec-ef62-47ad-b908-e8f60ee9f417.png">
-
 Fixing code:
-
 Before fixing ```append()``` method:
 ```
 public void append(int value) {
