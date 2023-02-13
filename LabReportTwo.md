@@ -19,7 +19,6 @@ The `handleRequest()` method is invoked again with the url, ```localhost:45992/a
  
 Part 2:
 -------
-
 Failure inducing input for the ```append()``` method in the LinkedListExample.java program (as a JUnit test):
 ```
 @Test
