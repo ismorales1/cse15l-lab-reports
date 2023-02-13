@@ -18,7 +18,7 @@ The `handleRequest()` method is invoked again with the url, ```localhost:45992/a
 Part 2:
 -------
 
-Failure inducing input for the append method in the LinkedListExample.java program (as a JUnit test):
+Failure inducing input for the ```append()``` method in the LinkedListExample.java program (as a JUnit test):
 ```
 @Test
 public void linkedListAppendTester(){
@@ -30,7 +30,7 @@ public void linkedListAppendTester(){
  assertEquals("4 8 7 ", pracList.toString());
 }
 ```
-Input for the append method in the LinkedListExample.java program that does not induce a failure (as a JUnit test):
+Input for the ```append()``` method in the LinkedListExample.java program that does not induce a failure (as a JUnit test):
 ```
 @Test
 public void linkedListAppendTesterTwo(){
