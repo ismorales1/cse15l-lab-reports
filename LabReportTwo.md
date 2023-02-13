@@ -1,6 +1,7 @@
 # Lab Report Two: Servers and Bugs
 
-##Part 1:
+Part 1:
+-------
 The screenshot below reveals the code to ```StringServer```:
 <img width="808" alt="Screen Shot 2023-02-12 at 4 17 58 PM" src="https://user-images.githubusercontent.com/122497830/218345971-3ac200ff-c485-44ef-930a-84d6b134af80.png">
 
@@ -14,7 +15,8 @@ Initially, the `handleRequest()` method gets invoked with the provided URL input
 
 The `handleRequest()` method is invoked again with the url, ```localhost:45992/add-message?s=hi```. This method also gets invoked another four times where the inputs and query is: ```s=Today is very sunny```, ```s=There is also no traffic today```, ```s=It is a good day today```, and ```s=San Diego is cool```. This means that after the provided url is handled, the global variable ```entireSequ``` gets updated five times and each new string gets concatenated to the existing sequence of strings. Each time that a new query is provided in the url, the ```entireSequ``` global variable gets updated and the corresponding sequence of strings gets printed onto the webpage. Also, a new line is provided after each new input, allowing each new subset of strings to appear below the previous strings provided in the query.
  
-##Part 2:
+Part 2:
+-------
 
 Failure inducing input for the append method in the LinkedListExample.java program (as a JUnit test):
 ```
