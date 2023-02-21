@@ -1,5 +1,6 @@
 Code:
 ``` grep -v "i" written_2/travel_guides/berlitz1/HandRHongKong.txt```
+
 Output:
 ```
 Recommended Hotels
