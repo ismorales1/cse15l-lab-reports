@@ -88,9 +88,30 @@ Command: ```grep -r "cold" written_2/non-fiction/OUP/Berk```
 
 Output:
 ```
-written_2/non-fiction/OUP/Berk/ch1.txt:This does not mean that a shy child should be forced into new situations with coldness, harshness, and impatience—tactics that magnify their dread of new and unpredictable events. Instead, parents who warmly, but consistently and assertively, require their inhibited child to try new experiences and guide and support them in doing so actually reduce the child’s physiological stress reactions, fostering a more adaptive style in the child. Indeed, adult eorts of this kind are believed to be largely responsible for the fact that about 70 percent of extremely inhibited babies cope with novelty more eectively as they get older (although practically none become highly sociable).
-written_2/non-fiction/OUP/Berk/ch7.txt:Besides modeling destructive forms of interaction, parents who behave hurtfully toward each other generally interact hostilely with their children.35 They also tend to use inconsistent discipline—alternately strict and lax.36 When parents scold children on some occasions but permit them to act inappropriately on others, children are confused about how to behave and engage in especially high rates of disobedience.
-written_2/non-fiction/OUP/Berk/ch7.txt:If parents experience intensifying sibling conﬂict, they may want to reevaluate their communication with each child. Warmth and frequent expressions of affection are associated with positive sibling interaction, whereas harshness and coldness are associated with sibling antagonism.41 Once established, this link between parent–child and sibling relationships is self-perpetuating. Warm parenting fosters considerate sibling interaction, which prompts positive parental communication in the future. When parents are hostile and coercive, children act similarly toward their siblings, and parental anger escalates.
+written_2/non-fiction/OUP/Berk/ch1.txt:This does not mean that a 
+shy child should be forced into new situations with coldness, harshness, 
+and impatience—tactics that magnify their dread of new and unpredictable 
+events. Instead, parents who warmly, but consistently and assertively, 
+require their inhibited child to try new experiences and guide and support 
+them in doing so actually reduce the child’s physiological stress reactions, 
+fostering a more adaptive style in the child. Indeed, adult eorts of this kind
+are believed to be largely responsible for the fact that about 70 percent of 
+extremely inhibited babies cope with novelty more eectively as they get older 
+(although practically none become highly sociable).
+written_2/non-fiction/OUP/Berk/ch7.txt:Besides modeling destructive forms of 
+interaction, parents who behave hurtfully toward each other generally interact 
+hostilely with their children.35 They also tend to use inconsistent 
+discipline—alternately strict and lax.36 When parents scold children on some 
+occasions but permit them to act inappropriately on others, children are confused 
+about how to behave and engage in especially high rates of disobedience.
+written_2/non-fiction/OUP/Berk/ch7.txt:If parents experience intensifying sibling 
+conﬂict, they may want to reevaluate their communication with each child. 
+Warmth and frequent expressions of affection are associated with positive sibling 
+interaction, whereas harshness and coldness are associated with sibling antagonism.41 
+Once established, this link between parent–child and sibling relationships is 
+self-perpetuating. Warm parenting fosters considerate sibling interaction, which prompts 
+positive parental communication in the future. When parents are hostile and coercive, 
+children act similarly toward their siblings, and parental anger escalates.
 ```
 -----------------------------------------------------
 **Example #6 using ```grep``` with ```-r``` option:**
