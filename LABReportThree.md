@@ -1,4 +1,4 @@
-# Lab Report Three
+# Lab Report Three: Researching Commands
 
 
 All options used for the command ```grep```:
