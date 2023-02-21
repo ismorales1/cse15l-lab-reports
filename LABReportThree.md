@@ -122,8 +122,21 @@ Command: ```grep -r "spawned" written_2/non-fiction/OUP```
 
 Output: 
 ```
-written_2/non-fiction/OUP/Abernathy/ch2.txt:For the United States this brings us back to Samuel Slater, “father of American manufactures.” By 1810, the Pawtucket, Rhode Island, enterprise begun with Slater’s cunning had spawned a vibrant cotton-spinning industry throughout New England. The next step in developing a U.S.-based industry was to bring the machine that took yarn and transformed it into finished cloth—the power loom—across the Atlantic. This feat was accomplished in much the same way that Slater brought cotton spinning to the United States, through the agency of a crafty Boston merchant, Francis Cabot Lowell. As business historian Robert Dalzell notes,
-written_2/non-fiction/OUP/Kauffman/ch3.txt:Some wellspring of creation, lithe in the scattered sunlight of an early planet, whispered something to the gods, who whispered back, and the mystery came alive. Agency was spawned. With it, the nature of the universe changed, for some new union of matter, energy, information, and something more could reach out and manipulate the world on its own behalf. Selfish? Yes. But how does matter, energy, information, and something else miraculous become selfish? From that miracle grew a biosphere = and, we must surmise, from that grow other biospheres, scattered seeds and gardens across the cosmos.
+written_2/non-fiction/OUP/Abernathy/ch2.txt:For the United States this brings us back to 
+Samuel Slater, “father of American manufactures.” By 1810, the Pawtucket, Rhode Island, 
+enterprise begun with Slater’s cunning had spawned a vibrant cotton-spinning industry 
+throughout New England. The next step in developing a U.S.-based industry was to bring 
+the machine that took yarn and transformed it into finished cloth—the power loom—across 
+the Atlantic. This feat was accomplished in much the same way that Slater brought cotton 
+spinning to the United States, through the agency of a crafty Boston merchant, Francis Cabot 
+Lowell. As business historian Robert Dalzell notes,
+written_2/non-fiction/OUP/Kauffman/ch3.txt:Some wellspring of creation, lithe in the scattered 
+sunlight of an early planet, whispered something to the gods, who whispered back, and the mystery 
+came alive. Agency was spawned. With it, the nature of the universe changed, for some new union of 
+matter, energy, information, and something more could reach out and manipulate the world on its 
+own behalf. Selfish? Yes. But how does matter, energy, information, and something else miraculous 
+become selfish? From that miracle grew a biosphere = and, we must surmise, from that grow other 
+biospheres, scattered seeds and gardens across the cosmos.
 ```
 -----------------------------------------------------
 **Example #7 using ```grep``` with ```-h``` option:**
@@ -134,7 +147,12 @@ Command: ```grep -h "encryption" written_2/non-fiction/OUP/Abernathy/*.txt```
 
 Output:
 ```
-A number of developments, many linked to issues we have discussed, indicate both the potential and limitations of electronic retailing. In one sense, the Internet offers opportunities akin to mail-order retailing for playing a very lean game. For example, Lands’ Ends became an early leader in adopting certain lean retailing elements into its catalog operations and has aggressively entered Internet retailing. This retailer launched its Web site in 1995, the first major apparel retailer to do so. Its site incorporates an encryption system to protect customers against credit-card thefts.46
+A number of developments, many linked to issues we have discussed, indicate both the potential and 
+limitations of electronic retailing. In one sense, the Internet offers opportunities akin to 
+mail-order retailing for playing a very lean game. For example, Lands’ Ends became an early leader 
+in adopting certain lean retailing elements into its catalog operations and has aggressively entered 
+Internet retailing. This retailer launched its Web site in 1995, the first major apparel retailer to 
+do so. Its site incorporates an encryption system to protect customers against credit-card thefts.46
 ```
 -----------------------------------------------------
 **Example #8 using ```grep``` with ```-h``` option:**
@@ -145,8 +163,36 @@ Command:```grep -h "skylights" written_2/non-fiction/OUP/*/*.txt```
 
 Output: 
 ```
-One might assume that just as the highest-rated cars—Mercedes-Benz, BMW, Lexus—represent the highest standards of automobile technology, the most admired architecture would be the best built. This was generally true in the past, but in the twentieth century, when new materials and new aesthetic theories often have driven architects to cavalier experimentation, even celebrated architects have fallen short in that department. Le Corbusier’s white suburban villas, for example, were crudely finished in cement plaster on top of brick, and since the architect usually ignored (for aesthetic reasons) intrusive metal flashing and coping strips, the crude “machines for living” often aged poorly. Some Frank Lloyd Wright buildings have leaky skylights, sagging overhangs, and defective heating systems. This does not make them any less delightful to visit, but it must make them considerably less delightful to inhabit. Perhaps the most dramatic example of failed experimentation in recent years is the Centre Georges Pompidou in Paris, which opened in 1977. The building was widely praised for its architectural innovation—the British periodical Architectural Design called it “a seminal building of the Modern Movement.” The architects Renzo Piano and Richard Rogers turned the building literally inside-out. They dramatically hung pipes, ducts, fire stairs, elevators, and escalators from the exterior structure. These previously hidden elements were now exposed in plain sight—and exposed to the elements. The result might have been foreseen: after only twenty years, the French government was obliged to close the building for a two-year renovation. Although the authorities maintained that the renovation was required because of the unexpectedly large number of visitors, according to Le Monde almost half of the $90 million budget was spent on refurbishing the façade.
-A number of years ago I accompanied the architect Jack Diamond on a visit to a building that he had just completed at York University in Toronto. It was a student center, containing a food court and lounges on the main level and student organization offices on the second floor. The exterior of the building was decidedly traditional. Facing a landscaped common, the well-proportioned façade consisted of a colonnaded brick base supporting a row of double columns capped by a deep copper-lined cornice. Behind the colonnade, which was fitted with retractable glass panels that could be opened during warm weather, was a two-story-high hall lit by three large skylights. The exterior had a simplicity that reminded me of McKim, Mead & White, albeit without Classical ornament.
+One might assume that just as the highest-rated cars—Mercedes-Benz, BMW, Lexus—represent the 
+highest standards of automobile technology, the most admired architecture would be the best 
+built. This was generally true in the past, but in the twentieth century, when new materials 
+and new aesthetic theories often have driven architects to cavalier experimentation, even 
+celebrated architects have fallen short in that department. Le Corbusier’s white suburban 
+villas, for example, were crudely finished in cement plaster on top of brick, and since the 
+architect usually ignored (for aesthetic reasons) intrusive metal flashing and coping strips, 
+the crude “machines for living” often aged poorly. Some Frank Lloyd Wright buildings have leaky 
+skylights, sagging overhangs, and defective heating systems. This does not make them any less 
+delightful to visit, but it must make them considerably less delightful to inhabit. Perhaps 
+the most dramatic example of failed experimentation in recent years is the Centre Georges 
+Pompidou in Paris, which opened in 1977. The building was widely praised for its architectural 
+innovation—the British periodical Architectural Design called it “a seminal building of the 
+Modern Movement.” The architects Renzo Piano and Richard Rogers turned the building literally 
+inside-out. They dramatically hung pipes, ducts, fire stairs, elevators, and escalators from 
+the exterior structure. These previously hidden elements were now exposed in plain sight—and 
+exposed to the elements. The result might have been foreseen: after only twenty years, the 
+French government was obliged to close the building for a two-year renovation. Although the 
+authorities maintained that the renovation was required because of the unexpectedly large 
+number of visitors, according to Le Monde almost half of the $90 million budget was spent on 
+refurbishing the façade.
+A number of years ago I accompanied the architect Jack Diamond on a visit to a building that 
+he had just completed at York University in Toronto. It was a student center, containing a 
+food court and lounges on the main level and student organization offices on the second 
+floor. The exterior of the building was decidedly traditional. Facing a landscaped common, 
+the well-proportioned façade consisted of a colonnaded brick base supporting a row of double 
+columns capped by a deep copper-lined cornice. Behind the colonnade, which was fitted with 
+retractable glass panels that could be opened during warm weather, was a two-story-high hall 
+lit by three large skylights. The exterior had a simplicity that reminded me of McKim, Mead 
+& White, albeit without Classical ornament.
 ```
 
 ----
