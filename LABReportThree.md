@@ -127,4 +127,5 @@ A number of years ago I accompanied the architect Jack Diamond on a visit to a b
 
 ----
 ## Sources:
-[ChatGpt](https://openai.com/blog/chatgpt/)
+[ChatGpt](https://openai.com/blog/chatgpt/) : 
+this is where I discovered the options ```-v```,```-c```,```-r```,```-h```
