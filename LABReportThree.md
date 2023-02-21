@@ -80,7 +80,7 @@ written_2/non-fiction/OUP/Abernathy/ch9.txt:0
 
 **Example #5 using ```grep``` with ```-r``` option:**
 
-In this example, ```-r``` allows the user to provide a directory. The files and the files within any subdirectories of the provided directory are then recursively searched to find any file withing the matches the provided pattern.
+In this example, ```-r``` allows the user to provide a directory. The files and the files within any subdirectories of the provided directory are then recursively searched to find any file withing the matches the provided pattern. 
 
 Command: ```grep -r "cold" written_2/non-fiction/OUP/Berk```
 
@@ -91,6 +91,17 @@ written_2/non-fiction/OUP/Berk/ch7.txt:Besides modeling destructive forms of int
 written_2/non-fiction/OUP/Berk/ch7.txt:If parents experience intensifying sibling conﬂict, they may want to reevaluate their communication with each child. Warmth and frequent expressions of affection are associated with positive sibling interaction, whereas harshness and coldness are associated with sibling antagonism.41 Once established, this link between parent–child and sibling relationships is self-perpetuating. Warm parenting fosters considerate sibling interaction, which prompts positive parental communication in the future. When parents are hostile and coercive, children act similarly toward their siblings, and parental anger escalates.
 ```
 **Example #6 using ```grep``` with ```-r``` option:**
+
+In this example, the subdirectory ```/OUP``` is provided, therefore, it is recursively searched and any file within that matches the pattern is printed in the terminal. This means that any file and any subdirectory files in ```/OUP```are printed onto the terminal if they match the pattern.
+
+Command: ```grep -r "spawned" written_2/non-fiction/OUP```
+
+Output: 
+```
+written_2/non-fiction/OUP/Abernathy/ch2.txt:For the United States this brings us back to Samuel Slater, “father of American manufactures.” By 1810, the Pawtucket, Rhode Island, enterprise begun with Slater’s cunning had spawned a vibrant cotton-spinning industry throughout New England. The next step in developing a U.S.-based industry was to bring the machine that took yarn and transformed it into finished cloth—the power loom—across the Atlantic. This feat was accomplished in much the same way that Slater brought cotton spinning to the United States, through the agency of a crafty Boston merchant, Francis Cabot Lowell. As business historian Robert Dalzell notes,
+written_2/non-fiction/OUP/Kauffman/ch3.txt:Some wellspring of creation, lithe in the scattered sunlight of an early planet, whispered something to the gods, who whispered back, and the mystery came alive. Agency was spawned. With it, the nature of the universe changed, for some new union of matter, energy, information, and something more could reach out and manipulate the world on its own behalf. Selfish? Yes. But how does matter, energy, information, and something else miraculous become selfish? From that miracle grew a biosphere = and, we must surmise, from that grow other biospheres, scattered seeds and gardens across the cosmos.
+```
+
 
 
 # SOURCES!!!!!!!!
