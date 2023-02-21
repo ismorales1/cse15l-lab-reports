@@ -80,7 +80,7 @@ written_2/non-fiction/OUP/Abernathy/ch9.txt:0
 
 **Example #5 using ```grep``` with ```-r``` option:**
 
-In this example, ```-r``` allows the user to provide a directory. The files and the files within any subdirectories of the provided directory are then recursively searched to find any file withing the matches the provided pattern. 
+In this example, the ```-r``` option allows the user to provide a directory. The files within the directory and any subdirectories are then recursively searched to find any file that matches the pattern. 
 
 Command: ```grep -r "cold" written_2/non-fiction/OUP/Berk```
 
@@ -92,7 +92,7 @@ written_2/non-fiction/OUP/Berk/ch7.txt:If parents experience intensifying siblin
 ```
 **Example #6 using ```grep``` with ```-r``` option:**
 
-In this example, the subdirectory ```/OUP``` is provided, therefore, it is recursively searched and any file within that matches the pattern is printed in the terminal. This means that any file and any subdirectory files in ```/OUP```are printed onto the terminal if they match the pattern.
+In this example, the subdirectory ```/OUP``` is provided, therefore, it is recursively searched and any file within that matches the pattern is displayed. This means that any file and any subdirectory files in ```/OUP```are printed onto the terminal if they match the pattern.
 
 Command: ```grep -r "spawned" written_2/non-fiction/OUP```
 
