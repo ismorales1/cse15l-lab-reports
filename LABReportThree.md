@@ -98,12 +98,12 @@ Command: ```grep -r "spawned" written_2/non-fiction/OUP```
 
 Output: 
 ```
-# code block
 written_2/non-fiction/OUP/Abernathy/ch2.txt:For the United States this brings us back to Samuel Slater, “father of American manufactures.” By 1810, the Pawtucket, Rhode Island, enterprise begun with Slater’s cunning had spawned a vibrant cotton-spinning industry throughout New England. The next step in developing a U.S.-based industry was to bring the machine that took yarn and transformed it into finished cloth—the power loom—across the Atlantic. This feat was accomplished in much the same way that Slater brought cotton spinning to the United States, through the agency of a crafty Boston merchant, Francis Cabot Lowell. As business historian Robert Dalzell notes,
 written_2/non-fiction/OUP/Kauffman/ch3.txt:Some wellspring of creation, lithe in the scattered sunlight of an early planet, whispered something to the gods, who whispered back, and the mystery came alive. Agency was spawned. With it, the nature of the universe changed, for some new union of matter, energy, information, and something more could reach out and manipulate the world on its own behalf. Selfish? Yes. But how does matter, energy, information, and something else miraculous become selfish? From that miracle grew a biosphere = and, we must surmise, from that grow other biospheres, scattered seeds and gardens across the cosmos.
 ```
 
 **Example #7 using ```grep``` with ```-h``` option:**
+
 
 
 # SOURCES!!!!!!!!
