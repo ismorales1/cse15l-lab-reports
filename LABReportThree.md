@@ -125,4 +125,6 @@ One might assume that just as the highest-rated cars—Mercedes-Benz, BMW, Lexus
 A number of years ago I accompanied the architect Jack Diamond on a visit to a building that he had just completed at York University in Toronto. It was a student center, containing a food court and lounges on the main level and student organization offices on the second floor. The exterior of the building was decidedly traditional. Facing a landscaped common, the well-proportioned façade consisted of a colonnaded brick base supporting a row of double columns capped by a deep copper-lined cornice. Behind the colonnade, which was fitted with retractable glass panels that could be opened during warm weather, was a two-story-high hall lit by three large skylights. The exterior had a simplicity that reminded me of McKim, Mead & White, albeit without Classical ornament.
 ```
 
-# SOURCES!!!!!!!!
+----
+## Sources:
+[ChatGpt](https://openai.com/blog/chatgpt/)
