@@ -104,6 +104,25 @@ written_2/non-fiction/OUP/Kauffman/ch3.txt:Some wellspring of creation, lithe in
 
 **Example #7 using ```grep``` with ```-h``` option:**
 
+In this example, the ```-h``` option is utilized, which displays the line in the provided file that matches the pattern. However, it does this without displaying the file name, meaning, only the line from the file is displayed. This can be utilized for output or input redirection.
 
+Command: ```grep -h "encryption" written_2/non-fiction/OUP/Abernathy/*.txt```
+
+Output:
+```
+A number of developments, many linked to issues we have discussed, indicate both the potential and limitations of electronic retailing. In one sense, the Internet offers opportunities akin to mail-order retailing for playing a very lean game. For example, Lands’ Ends became an early leader in adopting certain lean retailing elements into its catalog operations and has aggressively entered Internet retailing. This retailer launched its Web site in 1995, the first major apparel retailer to do so. Its site incorporates an encryption system to protect customers against credit-card thefts.46
+```
+
+**Example #8 using ```grep``` with ```-h``` option:**
+
+In this example, the lines that contain the pattern are displayed, but not the multiple file names.
+
+Command:```grep -h "skylights" written_2/non-fiction/OUP/*/*.txt```
+
+Output: 
+```
+One might assume that just as the highest-rated cars—Mercedes-Benz, BMW, Lexus—represent the highest standards of automobile technology, the most admired architecture would be the best built. This was generally true in the past, but in the twentieth century, when new materials and new aesthetic theories often have driven architects to cavalier experimentation, even celebrated architects have fallen short in that department. Le Corbusier’s white suburban villas, for example, were crudely finished in cement plaster on top of brick, and since the architect usually ignored (for aesthetic reasons) intrusive metal flashing and coping strips, the crude “machines for living” often aged poorly. Some Frank Lloyd Wright buildings have leaky skylights, sagging overhangs, and defective heating systems. This does not make them any less delightful to visit, but it must make them considerably less delightful to inhabit. Perhaps the most dramatic example of failed experimentation in recent years is the Centre Georges Pompidou in Paris, which opened in 1977. The building was widely praised for its architectural innovation—the British periodical Architectural Design called it “a seminal building of the Modern Movement.” The architects Renzo Piano and Richard Rogers turned the building literally inside-out. They dramatically hung pipes, ducts, fire stairs, elevators, and escalators from the exterior structure. These previously hidden elements were now exposed in plain sight—and exposed to the elements. The result might have been foreseen: after only twenty years, the French government was obliged to close the building for a two-year renovation. Although the authorities maintained that the renovation was required because of the unexpectedly large number of visitors, according to Le Monde almost half of the $90 million budget was spent on refurbishing the façade.
+A number of years ago I accompanied the architect Jack Diamond on a visit to a building that he had just completed at York University in Toronto. It was a student center, containing a food court and lounges on the main level and student organization offices on the second floor. The exterior of the building was decidedly traditional. Facing a landscaped common, the well-proportioned façade consisted of a colonnaded brick base supporting a row of double columns capped by a deep copper-lined cornice. Behind the colonnade, which was fitted with retractable glass panels that could be opened during warm weather, was a two-story-high hall lit by three large skylights. The exterior had a simplicity that reminded me of McKim, Mead & White, albeit without Classical ornament.
+```
 
 # SOURCES!!!!!!!!
