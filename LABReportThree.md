@@ -21,7 +21,8 @@ $$$HK$l,600 to HK$2,500
 $$HK$950 to HK$1,600
 $below HK$950
 ```
-Example #2 using ```grep``` with ```-v``` option:
+**Example #2 using ```grep``` with ```-v``` option:**
+In this example ```hotel``` is the provided pattern, therefore, any line in ```HandRHongKong.txt``` that does not match the pattern is printed into the terminal.
 
 Command:```grep -v "hotels" written_2/travel_guides/berlitz1/HandRHongKong.txt```
 
@@ -46,3 +47,4 @@ $$$HK$l,600 to HK$2,500
 $$HK$950 to HK$1,600
 $below HK$950
 ```
+**Example #3 using ```grep``` with ```-c``` option:**
