@@ -1,0 +1,2 @@
+Code:
+``` grep -v "cold" written_2/travel_guides/berlitz1/HandRHawaii.txt```
