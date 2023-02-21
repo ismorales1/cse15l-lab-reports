@@ -1,7 +1,7 @@
 # Lab Report Three
 
 
-All options used alongside ```grep```:
+All options used for the command ```grep```:
 - ```grep -v``` 
 - ```grep -c```
 - ```grep -r```
