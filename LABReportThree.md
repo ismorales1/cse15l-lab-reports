@@ -48,6 +48,7 @@ $$$HK$l,600 to HK$2,500
 $$HK$950 to HK$1,600
 $below HK$950
 ```
+-----------------------------------------------------
 **Example #3 using ```grep``` with ```-c``` option:**
 
 The ```-c``` option for ```grep``` prints the number of occurrences that the pattern appears in the provided file or files. In the example below, one file was passed in, therefore, the number of occurrences of the pattern within that file is printed. 
