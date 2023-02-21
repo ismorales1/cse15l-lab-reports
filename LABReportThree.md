@@ -10,8 +10,8 @@ All options used alongside ```grep```:
 Example #1 using ```grep``` with ```-v``` option:
 
 As you can see from the command below, the ```-v``` option for ```grep``` prints all the lines in the provided file that do not match the provided pattern. Therefore, this command can be useful for identifying files that do not contain a certain patter.
-Code:
-``` grep -v "i" written_2/travel_guides/berlitz1/HandRHongKong.txt```
+
+Command:``` grep -v "i" written_2/travel_guides/berlitz1/HandRHongKong.txt```
 
 Output:
 ```
