@@ -21,4 +21,28 @@ $$$HK$l,600 to HK$2,500
 $$HK$950 to HK$1,600
 $below HK$950
 ```
+Example #2 using ```grep``` with ```-v``` option:
 
+Command:```grep -v "hotels" written_2/travel_guides/berlitz1/HandRHongKong.txt```
+
+Output:
+```
+Recommended Hotels
+world, with representatives from all the major international chains.
+Hotels listed below have full air-conditioning, offer 24-hour or
+have excellent business services and conference facilities; many have
+shopping malls.
+Reservations are strongly recommended, particularly in
+summer and at Christmas. If you do arrive without making advance
+arrangements, the Hong Kong Hotel Reservation Center at the
+International Airport will be happy to arrange accommodations for you
+on your arrival.
+As a basic guide, the symbols below have been used to
+indicate high-season rates in Hong Kong dollars, based on double
+major credit cards. A 10% service charge and 5% government tax will be
+added to the bill.
+$$$$above HK$2,500
+$$$HK$l,600 to HK$2,500
+$$HK$950 to HK$1,600
+$below HK$950
+```
