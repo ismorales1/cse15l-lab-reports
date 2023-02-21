@@ -127,5 +127,8 @@ A number of years ago I accompanied the architect Jack Diamond on a visit to a b
 
 ----
 ## Sources:
-[ChatGpt](https://openai.com/blog/chatgpt/) : 
-this is where I discovered the options ```-v```,```-c```,```-r```,```-h```
+[ChatGpt Link](https://openai.com/blog/chatgpt/) : 
+This is where I discovered the options ```-v```and```-c```
+
+[geeksforgeeks link] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+This is the source I used for ```-r```,```-h```.
