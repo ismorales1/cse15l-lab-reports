@@ -130,5 +130,5 @@ A number of years ago I accompanied the architect Jack Diamond on a visit to a b
 [ChatGpt Link](https://openai.com/blog/chatgpt/) : 
 This is where I discovered the options ```-v```and```-c```
 
-[geeksforgeeks link] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+[geeksforgeeks Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 This is the source I used for ```-r```,```-h```.
