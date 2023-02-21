@@ -48,4 +48,36 @@ $$HK$950 to HK$1,600
 $below HK$950
 ```
 **Example #3 using ```grep``` with ```-c``` option:**
-d
+
+The ```-c``` option for ```grep``` prints the number of occurrences that the pattern appears in the provided file or files. In the example below, one file was passed in, therefore, the number of occurrences of the pattern within that file is printed. 
+
+Command:```grep -c "weather" written_2/non-fiction/OUP/Abernathy/ch2.txt```
+
+Output: 
+```
+1
+```
+**Example #4 using ```grep``` with ```-c``` option:**
+
+In the example below, multiple files were passed in, therefore, the pathway of the file along with the number of occurrences of the pattern within that file is printed. 
+
+Command:```grep -c "weather" written_2/non-fiction/OUP/Abernathy/*.txt```
+
+Output:
+```
+written_2/non-fiction/OUP/Abernathy/ch1.txt:0
+written_2/non-fiction/OUP/Abernathy/ch14.txt:0
+written_2/non-fiction/OUP/Abernathy/ch15.txt:0
+written_2/non-fiction/OUP/Abernathy/ch2.txt:1
+written_2/non-fiction/OUP/Abernathy/ch3.txt:1
+written_2/non-fiction/OUP/Abernathy/ch6.txt:1
+written_2/non-fiction/OUP/Abernathy/ch7.txt:0
+written_2/non-fiction/OUP/Abernathy/ch8.txt:0
+written_2/non-fiction/OUP/Abernathy/ch9.txt:0
+```
+
+
+
+
+
+
