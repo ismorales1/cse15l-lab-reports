@@ -13,6 +13,7 @@ The first key ```^r``` reveals command history. I then typed ```ssh``` and the e
 ---------------------------------------------------
 Step 5: Clone forked repository from Github account
 Keys Pressed: ```git clone```  ```<cmd v>```
+
 I typed ```git clone``` and then I clikced ```command v``` after copying the ssh clone link on Github.com.
 
 <img width="532" alt="Screen Shot 2023-02-27 at 9 15 23 PM" src="https://user-images.githubusercontent.com/122497830/221760552-dc22c516-ae25-4ef6-8716-bd5a42036da5.png">
@@ -44,6 +45,7 @@ Further, to compile and run the same commands as earlier, I simply used the ```<
 
 Step 9: Commit and push the resulting change to Github account
 Keys pressed: ```<^r>``` ```<enter>``` , ```<^r>``` ```<enter>```,```<^r>``` ```<enter>``` ```cmd v``` ```<enter>```
+
 To avoid typing the same commands as before, I used ```<^r>``` again and typed ```git``` and the ```add```, ```commit``` and ```push``` eventually autofilled. After adding and committing, I utilized  ```cmd v``` to print the ssh clone link from Github.com and pressed ```<enter>``` in order to push the changes. 
 <img width="452" alt="Screen Shot 2023-02-27 at 9 35 36 PM" src="https://user-images.githubusercontent.com/122497830/221763391-42de0397-e5a2-4b8b-bf5a-8c789ad0983a.png">
 
