@@ -12,6 +12,7 @@ The first key ```^r``` reveals command history. I then typed ```ssh``` and the e
 
 ---------------------------------------------------
 Step 5: Clone forked repository from Github account
+
 Keys Pressed: ```git clone```  ```<cmd v>```
 
 I typed ```git clone``` and then I clikced ```command v``` after copying the ssh clone link on Github.com.
