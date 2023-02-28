@@ -1,6 +1,7 @@
 # Lab Report 4
 
 
+---------------------------------------------------
 Step 4: Log into ieng6
 
 Keys pressed: ```<^r>``` ```<ssh>``` ```<left>``` ```<enter>```
@@ -13,6 +14,7 @@ The first key ```^r``` reveals command history. I then typed ```ssh``` and the e
 Step 5: Clone forked repository from Github account
 Keys Pressed: ```git clone```  ```<cmd v>```
 I typed ```git clone``` and then I clikced ```command v``` after copying the ssh clone link on Github.com.
+
 <img width="532" alt="Screen Shot 2023-02-27 at 9 15 23 PM" src="https://user-images.githubusercontent.com/122497830/221760552-dc22c516-ae25-4ef6-8716-bd5a42036da5.png">
 
 -----------------------------------------------------
