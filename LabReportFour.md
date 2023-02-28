@@ -33,7 +33,7 @@ Step 7: Edit the code file and fix the failures
 
 Keys pressed: ```nano``` ```List``` ```<tab>``` ```^W``` ```index2``` ```^o``` ```x```
 
-I then typed nano and to avoid typing the entire file name I simply typed ```List``` and then ```<tab>``` to autocomplete. After, I pressed ```^w``` to search for the ```index2``` variable. After fixing the file, I then pressed ```^o``` and ```^x``` to save and exit.
+I then typed ```nano``` and to avoid typing the entire file name I simply typed ```List``` and then ```<tab>``` to autocomplete. After, I pressed ```^w``` to search for the ```index2``` variable. After fixing the file, I then pressed ```^o``` and ```^x``` to save and exit.
 
 <img width="599" alt="Screen Shot 2023-02-27 at 9 23 35 PM" src="https://user-images.githubusercontent.com/122497830/221761637-d256dd9e-7575-4292-bf7a-ad9bb71eaca8.png">
 
