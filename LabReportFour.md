@@ -3,7 +3,7 @@
 
 Step 4: Log into ieng6
 
-Keys pressed: <^r> <ssh> <left> <enter>
+Keys pressed: ```<^r>``` ```<ssh>``` ```<left>``` ```<enter>```
 
 The first key (^r) reveals command history. I then typed ```ssh``` and the entire ieng6 login information automatically appeard. I clicked ```enter``` to run the command.
 <img width="900" alt="Screen Shot 2023-02-27 at 8 55 49 PM" src="https://user-images.githubusercontent.com/122497830/221757845-116c5dbd-1f91-4819-ae8d-e0bcf350b0c1.png">
