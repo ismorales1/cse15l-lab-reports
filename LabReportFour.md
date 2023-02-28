@@ -21,6 +21,7 @@ I typed ```git clone``` and then I clicked ```command v``` after copying the ssh
 
 -----------------------------------------------------
 Step 6: Run the tests and demonstrate that they fail
+
 Keys pressed: ```<^r>``` ```j``` ```<enter>``` ```<^r>``` ```j``` ```<enter>```
 
 I used control again to type ```<^r>``` and then typed in ```j``` and ```<enter>``` twice in order to run the junit and show that the test fails.
@@ -29,6 +30,7 @@ I used control again to type ```<^r>``` and then typed in ```j``` and ```<enter>
 
 ---------------------------------------------------
 Step 7: Edit the code file and fix the failures
+
 Keys pressed: ```nano``` ```List``` ```<tab>``` ```^W``` ```index2``` ```^o``` ```x```
 
 I then typed nano and to avoid typing the entire file name I simply typed ```List``` and then ```<tab>``` to autocomplete. After, I pressed ```^w``` to search for the ```index2``` variable. After fixing the file, I then pressed ```^o``` and ```^x``` to save and exit.
@@ -37,6 +39,7 @@ I then typed nano and to avoid typing the entire file name I simply typed ```Lis
 
 ---------------------------------------------------------
 Step 8: Run the tests and demonstrate that they succeeded
+
 Keys pressed: ```<up>``` ```<up>``` ```<up>``` ```<enter>``` , ```<up>``` ```<up>``` ```<up>``` ```<enter>```
 
 Further, to compile and run the same commands as earlier, I simply used the ```<up>``` to retrieve the earlier commands I used to compile and run jUnit.
@@ -45,6 +48,7 @@ Further, to compile and run the same commands as earlier, I simply used the ```<
 --------------------------------------------------------------
 
 Step 9: Commit and push the resulting change to Github account
+
 Keys pressed: ```<^r>``` ```<enter>``` , ```<^r>``` ```<enter>```,```<^r>``` ```<enter>``` ```cmd v``` ```<enter>```
 
 To avoid typing the same commands as before, I used ```<^r>``` again and typed ```git``` and the ```add```, ```commit``` and ```push``` eventually autofilled. After adding and committing, I utilized  ```cmd v``` to print the ssh clone link from Github.com and pressed ```<enter>``` in order to push the changes. 
