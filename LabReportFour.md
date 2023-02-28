@@ -47,6 +47,6 @@ Step 9: Commit and push the resulting change to Github account
 Keys pressed: ```<^r>``` ```<enter>``` , ```<^r>``` ```<enter>```,```<^r>``` ```<enter>``` ```cmd v``` ```<enter>```
 
 To avoid typing the same commands as before, I used ```<^r>``` again and typed ```git``` and the ```add```, ```commit``` and ```push``` eventually autofilled. After adding and committing, I utilized  ```cmd v``` to print the ssh clone link from Github.com and pressed ```<enter>``` in order to push the changes. 
-<img width="452" alt="Screen Shot 2023-02-27 at 9 35 36 PM" src="https://user-images.githubusercontent.com/122497830/221763391-42de0397-e5a2-4b8b-bf5a-8c789ad0983a.png">
 
+<img width="452" alt="Screen Shot 2023-02-27 at 9 35 36 PM" src="https://user-images.githubusercontent.com/122497830/221763391-42de0397-e5a2-4b8b-bf5a-8c789ad0983a.png">
 <img width="654" alt="Screen Shot 2023-02-27 at 9 36 14 PM" src="https://user-images.githubusercontent.com/122497830/221763484-e27a2a4b-f1dc-48d3-820b-51ad36600988.png">
