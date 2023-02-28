@@ -24,7 +24,7 @@ Step 6: Run the tests and demonstrate that they fail
 
 Keys pressed: ```<^r>``` ```j``` ```<enter>``` ```<^r>``` ```j``` ```<enter>```
 
-I used control again to type ```<^r>``` and then typed in ```j``` and ```<enter>``` twice in order to run the junit and show that the test fails.
+I used the control key again to type ```<^r>``` and then typed in ```j``` and ```<enter>``` twice in order to run the junit and show that the test fails.
 
 <img width="1033" alt="Screen Shot 2023-02-27 at 9 20 34 PM" src="https://user-images.githubusercontent.com/122497830/221761221-56a42bae-b6ee-4356-90da-643ec67b5a3d.png">
 
