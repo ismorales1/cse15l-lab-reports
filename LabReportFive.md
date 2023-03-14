@@ -22,7 +22,7 @@ However, to gain more insight about the inifite loop, we can utilize the command
 
 
 ----------------------------------------------------
-As you can see from the screenshot below, after utilizing the command line debugger, we see that the linked list instance is initialized and the first two elements actually get appended. We know this because we run the 9th, 10th, and 11th line one by one.
+As you can see from the screenshot below, after utilizing the command line debugger, we see that the linked list instance is initialized and the first two elements actually get appended. We know this because we run the 9th, 10th, and 11th line of the testing method one by one.
 
 <img width="1077" alt="Screen Shot 2023-03-13 at 9 15 03 PM" src="https://user-images.githubusercontent.com/122497830/224891675-2f2946c6-eae4-4a8c-afbe-4200708ef5f0.png">
 
