@@ -6,27 +6,26 @@ For lab 3 and part 2 of Lab Report 2, we were introduced to JUnit and its testin
 One of the bugs in the LinkedList implementation was that the ```append()``` method entered an infinite loop:
 <img width="583" alt="Screen Shot 2023-03-13 at 9 10 20 PM" src="https://user-images.githubusercontent.com/122497830/224891001-644440d2-d2c0-4426-878c-7730528e60b4.png">
 
+JUnit testing method:
+<img width="604" alt="Screen Shot 2023-03-13 at 8 36 34 PM" src="https://user-images.githubusercontent.com/122497830/224886832-5529cc53-a17f-4f66-9d5c-f9cfd99840a1.png">
+
 Test failing:
 <img width="1038" alt="Screen Shot 2023-03-13 at 7 46 42 PM" src="https://user-images.githubusercontent.com/122497830/224879981-bef2029e-2626-4c63-905f-300e3e251a39.png">
 
+----------------------------------------------------
 However, to gain more insight about the inifite loop, we can utilize the command line Java debugger. First, I need to compile and run the Java debugger:
 
 <img width="728" alt="Screen Shot 2023-03-13 at 9 13 29 PM" src="https://user-images.githubusercontent.com/122497830/224891448-1bd7de30-3ed5-44be-9614-54571c565a38.png">
 
 
-
+----------------------------------------------------
 As you can see from the screenshot below, after utilizing the command line debugger, we see that the linked list instance is initialized and the first two elements actually get appended. We know this because we run the 9th, 10th, and 11th line one by one.
 
 <img width="1077" alt="Screen Shot 2023-03-13 at 9 15 03 PM" src="https://user-images.githubusercontent.com/122497830/224891675-2f2946c6-eae4-4a8c-afbe-4200708ef5f0.png">
 
-However, when we run the 11th line, this is where we encounter the infinite loop. Now, we have more insight on when the bug occurs, which can lead to identifying the bug. 
+----------------------------------------------------
+However, when we run the 11th line, this is where we encounter the infinite loop. Now, we have more insight on when the bug occurs, which can lead to identifying the bug quicker. 
 
 <img width="1095" alt="Screen Shot 2023-03-13 at 9 17 23 PM" src="https://user-images.githubusercontent.com/122497830/224891953-2ef39b98-b87d-4f9e-8856-a563bfad6371.png">
 
 Also, we now have a stronger idea of what the failure inducing input is for this particular method, which is, appending more than two elements. Further, we also gained insight as to what is not failure inducing input, and for this case, it's appending 2 or less elements to a linked list. 
-
-
-<img width="771" alt="Screen Shot 2023-03-13 at 8 03 13 PM" src="https://user-images.githubusercontent.com/122497830/224882303-c7d687bb-e9ea-473e-acab-3e2afec90f3f.png">
-
-<img width="604" alt="Screen Shot 2023-03-13 at 8 36 34 PM" src="https://user-images.githubusercontent.com/122497830/224886832-5529cc53-a17f-4f66-9d5c-f9cfd99840a1.png">
-
