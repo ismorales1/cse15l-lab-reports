@@ -22,7 +22,7 @@ However, to gain more insight about the infinite loop, we can utilize the comman
 
 
 ----------------------------------------------------
-As you can see from the screenshot below, after utilizing the command line debugger, we see that the linked list instance is initialized and the first two elements actually get appended. We know this because we run the 8th, 9th, and 10th line of the testing method one by one.
+As you can see from the screenshot below, after utilizing the command line debugger, we see that the linked list instance is initialized and the first two elements actually get appended. We know this because we run the 8th, 9th, and 10th line of the testing method one by one. This is achievable through the deubgger by utilizing the ```next``` command, which runs an individual line of code. Also, the ```stop at``` command was utilized in order to run multiple individual lines, without running the entire program. 
 
 <img width="1077" alt="Screen Shot 2023-03-13 at 9 15 03 PM" src="https://user-images.githubusercontent.com/122497830/224891675-2f2946c6-eae4-4a8c-afbe-4200708ef5f0.png">
 
