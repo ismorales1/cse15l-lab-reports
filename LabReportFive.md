@@ -1,8 +1,6 @@
 # Lab Report Five 
 --------------------
-During the week 3 lab, we were introduced to JUnit and its testing capabilities. We attempted to write some tests with the provided files in the lab3 
-repository. However, apart from writing insightful tests for some of the files, it was difficult to directly identify the symptoms of some of the bugs. 
-Therefore, I believe that using the Java command line debugger that we just learned, would be useful in order to troublelshoot and identify bugs quicker. 
+For lab 3 and part 2 of Lab Report 2, we were introduced to JUnit and its testing capabilities. We attempted to write some tests with the provided files in the lab3 repository. However, apart from writing insightful tests for some of the files, it was difficult to directly identify the symptoms/failure-inducing input for some of the bugs. Therefore, I believe that using the Java command line debugger that we just learned, would be useful in order to troublelshoot and identify bugs quicker. 
 
 ----------------------------------------------------
 One of the bugs in the LinkedList implementation was that the ```append()``` method enters an infinite loop:
