@@ -15,6 +15,9 @@ when we run the 11th line, that is where we encounter the infinite loop. Now, we
 the bug.
 
 <img width="771" alt="Screen Shot 2023-03-13 at 8 03 13 PM" src="https://user-images.githubusercontent.com/122497830/224882303-c7d687bb-e9ea-473e-acab-3e2afec90f3f.png">
+
+<img width="604" alt="Screen Shot 2023-03-13 at 8 36 34 PM" src="https://user-images.githubusercontent.com/122497830/224886832-5529cc53-a17f-4f66-9d5c-f9cfd99840a1.png">
+
 ----------------------------------------------------
 
 In the method ```sumEvenIndices()```, there was a bug that was only invoked through certain input. Apart from the information that JUnit provided, the
@@ -22,4 +25,5 @@ Java debugger also provided further context about the bug. As you can see from t
 of bounds. The ```input1 ``` variable is supposed to be assigned to an integer that summed all of the numbers at even indices. However, after running the 
 8th line, there is weird behavior occuring, which may allow the user to imply that an index related bug is occurring. 
 <img width="938" alt="Screen Shot 2023-03-13 at 8 35 24 PM" src="https://user-images.githubusercontent.com/122497830/224886671-901b16a4-bf99-4d03-93b4-319e9ad4999d.png">
+
 <img width="640" alt="Screen Shot 2023-03-13 at 8 35 45 PM" src="https://user-images.githubusercontent.com/122497830/224886730-72ee0a92-76ea-4d9e-9ab7-8c6f4b076ff1.png">
