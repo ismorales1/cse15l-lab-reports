@@ -1,3 +1,5 @@
+# Lab Report Five 
+--------------------
 During the week 3 lab, we were introduced to JUnit and its testing capabilities. We attempted to write some tests with the provided files in the lab3 
 repository. However, apart from writing insightful tests for some of the files, it was difficult to directly identify the symptoms of some of the bugs. 
 Therefore, I believe that using the Java command line debugger that we just learned, would be useful in order to troublelshoot and identify bugs quicker. 
