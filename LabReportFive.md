@@ -1,6 +1,6 @@
 # Lab Report Five 
 --------------------
-For lab 3 and part 2 of Lab Report 2, we were introduced to JUnit and its testing capabilities. We attempted to write some tests with the provided files in the lab3 repository. However, apart from writing insightful tests for some of the files, it was difficult to directly identify the symptoms/failure-inducing input for some of the bugs. Therefore, I believe that using the Java command line debugger that we just learned, would be useful in order to troublelshoot and identify bugs quicker. 
+For lab 3 and part 2 of the 2nd Lab Report, we were introduced to JUnit and its testing capabilities. We attempted to write some tests with the provided files in the lab3 repository. However, apart from writing insightful tests for some of the files, it was difficult to directly identify the symptoms/failure-inducing input for some of the bugs. Therefore, I believe that using the Java command line debugger that we just learned, would be useful in order to troublelshoot and identify bugs quicker. 
 
 ----------------------------------------------------
 One of the bugs in the LinkedList implementation was that the ```append()``` method entered an infinite loop:
@@ -16,7 +16,7 @@ Test failing:
 <img width="1038" alt="Screen Shot 2023-03-13 at 7 46 42 PM" src="https://user-images.githubusercontent.com/122497830/224879981-bef2029e-2626-4c63-905f-300e3e251a39.png">
 
 ----------------------------------------------------
-However, to gain more insight about the inifite loop, we can utilize the command line Java debugger. First, I need to compile and run the Java debugger:
+However, to gain more insight about the infinite loop, we can utilize the command line Java debugger. First, I need to compile and run the Java debugger with respect to the LinkedList testing file:
 
 <img width="728" alt="Screen Shot 2023-03-13 at 9 13 29 PM" src="https://user-images.githubusercontent.com/122497830/224891448-1bd7de30-3ed5-44be-9614-54571c565a38.png">
 
