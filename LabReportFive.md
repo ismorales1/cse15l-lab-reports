@@ -3,7 +3,7 @@ repository. However, apart from writing insightful tests for some of the files, 
 Therefore, I believe that using the Java command line debugger that we just learned, would be useful in order to troublelshoot and identify bugs quicker. 
 
 ----------------------------------------------------
-One of the bugs in the LinkedList implementation was that the append() method enters an infinite loop:
+One of the bugs in the LinkedList implementation was that the ```append()``` method enters an infinite loop:
 
 <img width="1038" alt="Screen Shot 2023-03-13 at 7 46 42 PM" src="https://user-images.githubusercontent.com/122497830/224879981-bef2029e-2626-4c63-905f-300e3e251a39.png">
 
