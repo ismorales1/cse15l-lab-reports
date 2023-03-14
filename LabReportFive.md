@@ -8,7 +8,6 @@ One of the bugs in the LinkedList implementation was that the ```append()``` met
 <img width="583" alt="Screen Shot 2023-03-13 at 9 10 20 PM" src="https://user-images.githubusercontent.com/122497830/224891001-644440d2-d2c0-4426-878c-7730528e60b4.png">
 
 JUnit testing method:
-
 <img width="604" alt="Screen Shot 2023-03-13 at 8 36 34 PM" src="https://user-images.githubusercontent.com/122497830/224886832-5529cc53-a17f-4f66-9d5c-f9cfd99840a1.png">
 
 Test failing:
