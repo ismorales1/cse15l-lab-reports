@@ -9,7 +9,12 @@ One of the bugs in the LinkedList implementation was that the ```append()``` met
 Test failing:
 <img width="1038" alt="Screen Shot 2023-03-13 at 7 46 42 PM" src="https://user-images.githubusercontent.com/122497830/224879981-bef2029e-2626-4c63-905f-300e3e251a39.png">
 
-However, to gain more insight about the inifite loop, we can utilize the command line Java debugger. As you can see from the screenshot below, after
+However, to gain more insight about the inifite loop, we can utilize the command line Java debugger. First, I need to compile and run the Java debugger:
+<img width="728" alt="Screen Shot 2023-03-13 at 9 13 29 PM" src="https://user-images.githubusercontent.com/122497830/224891448-1bd7de30-3ed5-44be-9614-54571c565a38.png">
+
+
+
+As you can see from the screenshot below, after
 utilizing the command line debugger, we see that the linked list instance is initialized and the first two elements actually get appended. However,
 when we run the 11th line, this is where we encounter the infinite loop. Now, we have more insight on when the bug occurs, which can lead to identifying
 the bug.
